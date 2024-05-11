@@ -9,7 +9,7 @@ function attendtodisplay(input) {
 function cleardisplay() {
   display.value = "";
 }
-///eval method
+///eval method///
 
 function calculate() {
   display.value = eval(display.value);
