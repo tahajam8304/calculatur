@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cslcu.css"> 
+</head>
+<body>
+    <div class="calculator">
+        <input id="display" readonly>
+        <div id="key">
+        <button onclick="attendtodisplay('+')" class="eq">+</button>
+        <button onclick="attendtodisplay('7')">7</button>
+        <button onclick="attendtodisplay('8')">8</button>
+        <button onclick="attendtodisplay('9')">9</button>
+        <button onclick="attendtodisplay('-')" class="eq">-</button>
+        <button onclick="attendtodisplay('4')">4</button>
+        <button onclick="attendtodisplay('5')">5</button>
+        <button onclick="attendtodisplay('6')">6</button>
+        <button onclick="attendtodisplay('*')" class="eq">*</button>
+        <button onclick="attendtodisplay('1')">1</button>
+        <button onclick="attendtodisplay('2')">2</button>
+        <button onclick="attendtodisplay('3')">3</button>
+        <button onclick="attendtodisplay('/')" class="eq">/</button>
+        <button onclick="attendtodisplay('0')">0</button>
+        <button onclick="calculate()" class="eq">=</button>
+        <button onclick="cleardisplay('')" class="eq">AC</button>
+       </div> 
+        
+    </div>
+    <script src="calcu.js"></script>
+</body>
+</html>
